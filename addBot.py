@@ -51,7 +51,7 @@ cmd = 'docker run -itd --name {} -v /root/python/botUser/{}/chatgpt-on-wechat:/r
 code  = os.system(cmd)
 if code==0:
     print("用户容器创建成功")
-    time.sleep(12)
+    time.sleep(10)
     # 显示出二维码
     os.system("cat /root/python/botUser/{}/chatgpt-on-wechat/nohup.out".format(botUserName))
 
