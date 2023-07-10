@@ -12,7 +12,7 @@
   "registry-mirrors":["https://yxzrazem.mirror.aliyuncs.com"]
 }
   * systemct restart docker 让配置文件生效
-  * cd /root 编译生成部署使用的环境镜像 docker build -t chatgpt/wechat/env:latest .
+  * cd /root/python 编译生成部署使用的环境镜像 docker build -t chatgpt/wechat/env:latest .
   * 替换/root/python下的chatgpt-on-wechat代码文件夹（换成实际项目使用的）
   * config.json 复制一份当前实际项目部署使用配置文件，后面部署会根据此配置文件自动生成其他用户配置
   * 运行bash addBot.sh生成新用户部署

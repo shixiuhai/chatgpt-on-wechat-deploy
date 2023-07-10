@@ -1,7 +1,7 @@
 {
     "open_ai_api_key": "YOUR API KEY",
     "model": "gpt-3.5-turbo",
-    "proxy": "",
+    "proxy": "8.218.134.160:12326",
     "hot_reload": false,
     "single_chat_prefix": [
       "bot",
@@ -12,11 +12,10 @@
       "@bot"
     ],
     "group_name_white_list": [
-      "ChatGPT测试群",
-      "ChatGPT测试群2"
+      "ALL_GROUP"
     ],
     "group_chat_in_one_session": [
-      "ChatGPT测试群"
+      "ALL_GROUP"
     ],
     "image_create_prefix": [
       "画",
